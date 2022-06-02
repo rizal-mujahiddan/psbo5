@@ -5,7 +5,13 @@
     }
 
     class Sapi_Perah extends Sapi{
+        private $milkstatus;
+        private $meatstatus;
+        private $volumemilk;
+    }
 
+    class Sapi_Potong extends Sapi{
+        private $meatstatus;
     }
 
 ?>
