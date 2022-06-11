@@ -48,22 +48,22 @@
                     <div class="form-group">
 						<label for="jenis" class="col-sm-2 control-label">Jenis Hewan</label>
 						<div class="col-sm-10">
-							<input type="radio" class="form-horizontal" id="sapiperah" name="sapiperah" value="" >
+							<input type="radio" class="form-horizontal" id="sapiperah" name="jenishewan" value="" >
                             <p1>Sapi Perah</p>
-                            <input type="radio" class="form-horizontal" id="sapipotong" name="sapipotong" value="">
+                            <input type="radio" class="form-horizontal" id="sapipotong" name="jenishewan" value="">
                             <p1>Sapi Potong</p>
-                            <input type="radio" class="form-horizontal" id="kambingperah" name="kambingperah" value="">
+                            <input type="radio" class="form-horizontal" id="kambingperah" name="jenishewan" value="">
                             <p1>Kambing Perah</p>
-                            <input type="radio" class="form-horizontal" id="kambingpotong" name="kambingpotong" value="">
+                            <input type="radio" class="form-horizontal" id="kambingpotong" name="jenishewan" value="">
                             <p1>Kambing Potong</p>
                         </div>
 					</div>
                     <div class="form-group">
 						<label for="jenis" class="col-sm-2 control-label">Kedaan Sehat?</label>
 						<div class="col-sm-10">
-							<input type="radio" class="form-horizontal" id="ya" name="ya" value="" >
+							<input type="radio" class="form-horizontal" id="ya" name="keadaan" value="" >
                             <p1>Ya</p>
-                            <input type="radio" class="form-horizontal" id="tidak" name="tidak" value="">
+                            <input type="radio" class="form-horizontal" id="tidak" name="keadaan" value="">
                             <p1>Tidak</p>
                         </div>
 					</div>
