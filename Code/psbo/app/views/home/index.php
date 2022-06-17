@@ -83,20 +83,82 @@
         detail ukuran tinggi dan berat badan dan lain lain
       </div>
     </div>
-    <div class="container-fluid pt-3 pb-3 ps-4 pe-4 mt-3 mb-3 justify-content-center bg-light">
+    <!-- <div class="container-fluid pt-3 pb-3 ps-4 pe-4 mt-3 mb-3 justify-content-center bg-light">
       <div class="row">
-          <a href="<?= BASEURL; ?>/form/index" class="btn btn-primary">Buat Form Hewan Ternak Sapi Potong</a>
+          <a href="?= BASEURL; ?>/form/index.php" class="btn btn-primary">Buat Form Hewan Ternak Sapi Potong</a>
       </div><br>
       <div class="row">
-          <a href="<?= BASEURL; ?>/form/perah" class="btn btn-success">Buat Form Hewan Ternak Sapi Perah</a>
+          <a href="?= BASEURL; ?>/form/perah.php" class="btn btn-success">Buat Form Hewan Ternak Sapi Perah</a>
       </div><br>
       <div class="row">
-          <a href="<?= BASEURL; ?>/form/kambing_potong" class="btn btn-primary">Buat Form Hewan Ternak Kambing Potong</a>
+          <a href="?= BASEURL; ?>/form/kambing_potong.php" class="btn btn-primary">Buat Form Hewan Ternak Kambing Potong</a>
       </div><br>
       <div class="row">
-          <a href="<?= BASEURL; ?>/form/kambing_perah" class="btn btn-success">Buat Form Hewan Ternak Kambing Perah</a>
+          <a href="?= BASEURL; ?>/form/kambing_perah.php" class="btn btn-success">Buat Form Hewan Ternak Kambing Perah</a>
+      </div>
+    </div> -->
+
+
+    <div class="container-fluid pt-3 pb-3 ps-4 pe-4 mt-3 mb-3 justify-content-center bg-light text-white">
+      <div class="row">
+        <div class="col p-2 bg-primary m-2">
+          <div>
+            <h3 class="p-2 text-center">Hewan Ternak Sapi Potong</h3>
+            <div>
+              Masukkan Data hewan ternak anda, Terutama pada Sapi potong agar lebih baik
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="<?= BASEURL; ?>/form/index">
+                <div class="btn btn-success mt-4 mb-4">Buat Form Hewan Ternak Sapi Potong</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2 bg-success m-2">
+          <div>
+            <h3 class="p-2 text-center">Hewan Ternak Sapi Perah</h3>
+            <div>
+              Masukkan Data hewan ternak anda, Terutama pada Sapi perah agar lebih baik
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="<?= BASEURL; ?>/form/perah">
+                <div class="btn btn-primary mt-4 mb-4">Buat Form Hewan Ternak Sapi Perah</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col p-2 bg-primary m-2">
+          <div>
+            <h3 class="p-2 text-center">Hewan Ternak Kambing Potong</h3>
+            <div>
+              Masukkan Data hewan ternak anda, Terutama pada Kambing potong agar lebih baik
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="<?= BASEURL; ?>/form/kambing_potong">
+                <div class="btn btn-success mt-4 mb-4">Buat Form Hewan Ternak Sapi Potong</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col p-2 bg-success m-2">
+          <div>
+            <h3 class="p-2 text-center">Hewan Ternak kambing Perah</h3>
+            <div>
+              Masukkan Data hewan ternak anda, Terutama pada kambing perah agar lebih baik
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="<?= BASEURL; ?>/form/kambing_perah">
+                <div class="btn btn-primary mt-4 mb-4">Buat Form Hewan Ternak Kambing Perah</div>
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
