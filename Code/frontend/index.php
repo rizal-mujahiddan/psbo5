@@ -150,7 +150,7 @@
             <h3 class="p-2 text-center">View All livestock in Your Database</h3>
             <div>Mengecek Data Apakah Data tersebut Sudah Benar dimasukkan</div>
             <div class="col-md-12 text-center">
-              <a href="form.html">
+              <a href="view_table.php">
                 <div class="btn btn-primary mt-4 mb-4">View Your Data</div>
               </a>
             </div>
