@@ -1,11 +1,9 @@
 <?php
 
 class App {
-
     protected $controller = 'Home';
     protected $method = 'index';
     protected $params = [];
-
     public function __construct()
     {
         if($this->ParseURL() == TRUE) {
@@ -14,9 +12,18 @@ class App {
         else {
             $url = ['Home', 'index'];
         }
+        
+        // $debug = var_export($url, true);
+        // $myfile = fopen("newfile.txt", "w");
+        // $rizal = "Rizal Ganteng";
+        // fwrite($myfile, $rizal);
+        // fwrite($myfile, $debug);
+        // fclose($myfile);
+        // var_dump($url);
+        // echo getcwd();
 
         // controller
-        if( file_exists('../app/controllers/' . $url[0] . '.php') ) {
+        if( file_exists('../app/controllers/' . $url[0] . '.php') ){
             $this->controller = $url[0];
             unset($url[0]);
         }
@@ -36,7 +43,6 @@ class App {
         if( !empty($url) ) {
             $this->params = array_values($url);
         }
-
         // jalankan controller & method serta kirimkan parameter kalau ada
         call_user_func_array([$this->controller, $this->method], $this->params);
     }
@@ -46,10 +52,13 @@ class App {
             $url = rtrim($_GET['url'], '/');
             $url = filter_var($url, FILTER_SANITIZE_URL);
             $url = explode('/', $url);
+            // $url = array_slice($url,6);
             return $url;
+        }
+        else{
+            return FALSE;
         }
     }
 
 }
-
 ?>
