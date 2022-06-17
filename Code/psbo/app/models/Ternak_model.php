@@ -78,14 +78,14 @@ class Ternak_model {
     }
     
     public function getJumlahSakit() {
-        $query = "SELECT * FROM ternak WHERE keadaan = 'sakit'";
+        $query = "SELECT * FROM ternak WHERE keadaan = 'tidak'";
         $this->db->query($query);
         $this->db->execute();
         return $this->db->rowCount();
     }
     
     public function getJumlahSehat() {
-        $query = "SELECT * FROM ternak WHERE jenis = 'sembuh'";
+        $query = "SELECT * FROM ternak WHERE keadaan = 'ya'";
         $this->db->query($query);
         $this->db->execute();
         return $this->db->rowCount();
