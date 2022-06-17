@@ -1,7 +1,7 @@
 <?php
 // jika pake folder nya isal, gunakan ini
-    define('BASEURL', 'http://localhost/psbo/public');
-    // define('BASEURL', 'http://localhost/psbo5/Code/psbo/public');
+    // define('BASEURL', 'http://localhost/psbo/public');
+    define('BASEURL', 'http://localhost/psbo5/Code/psbo/public');
 
 // DB
     define('DB_HOST', 'localhost');
