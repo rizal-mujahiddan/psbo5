@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head></head>
-    <body>
-        <h1>Rizal Mujahiddan</h1>
-    </body>
-</html>
+<?php 
+    require_once 'app/init.php';
+    header('Location: ' . BASEURL);
+?>
