@@ -9,3 +9,5 @@ Kami dari kelompok 5 , yang beranggotakan
 5.  G64190085 Dwayne Cameron Sjahid
 
 Mungkin, baca dahulu guidesnya yaa
+
+untuk yang dipakai adalah folder Code/psbo karena sudah ada database
